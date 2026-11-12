@@ -1,0 +1,28 @@
+aid: optionsdata-ai
+name: OptionsData.ai
+description: 'OptionsData.ai is a company surfaced via the API Evangelist harvest backlog (source: new-submission)
+  and added to the network as a stub for full-pipeline profiling.'
+url: https://artifacts.apis.io/optionsdata-ai/apis.yml
+x-type: company
+x-source: harvest:new-submission
+x-tier: stub
+x-tier-reason: harvest
+specificationVersion: '0.20'
+created: '2026-11-11'
+modified: '2026-11-11'
+tags:
+- Company
+apis: []
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
+- FN: APIs.json
+  email: info@apis.io
+common:
+- type: Website
+  url: https://optionsdata.ai
+x-submission-notes: 'Founder email (ConvexValue): live options quotes with IV, Greeks, time and sales
+  via REST, WebSocket and MCP. Read /readme for the contract surface; contact on site [redacted]'
+x-submission-probe: root 200 (24.7KB html); /docs, /openapi.json, /llms.txt 404; page names REST https://api.optionsdata.ai/v1
+  (chains, underlyings), WebSocket streaming, MCP https://api.optionsdata.ai/mcp; /readme page; access
+  by invite (account.optionsdata.ai/account/request-invite); free in beta
